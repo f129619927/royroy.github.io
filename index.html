@@ -1,8 +1,153 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="bookstrap/css/bootstrap.min.css">
 </head>
-<body>
-  123123
+<style>
+ body{
+  position: relative;
+}
+  .banner img{
+  width: 100%;
+  height: 100%;
+  }
+  .red{
+    background:red;
+  padding:0;
+  margin: 0 -15px;
+  }
+  .blue{
+    background:blue;
+    padding:0;
+  }
+  .pt{
+  width: 80%;
+  padding: 1%;
+  background: #fff;
+  margin: 8%;
+  }
+  .name{
+    text-align: center;
+    padding-bottom:2%;
+  }
+  .one{
+  padding: 0;
+  margin: 0;
+  }
+  .two{
+    background-color: green;
+    margin: -10px -15px;
+    padding: 5%;
+    height: 41vh;
+  }
+  .two>li{
+    list-style: none;
+    font-size: 16px;
+    padding: 2%;
+  }
+</style>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div>
+    <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">royyyyy</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#resume">about roy</a></li>
+            <li><a href="#album">who is roy</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div id="home" class="banner">
+        <img  class="img-responsive" src="http://pic.pimg.tw/ourstrings/4a8523d3ed2f5.jpg"/>
+
+    </div>
+    <div id="resume">
+<div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+
+        <div class="one">
+          <div class="red">
+            <p><img class="pt"src="https://cdn1-t17-techbang.pixcdn.tw/system/attached_images/2013/10/109963/original/277d27e62ee97e76078485e3d86ac250.jpg?1383107390"/></p>
+            <h2 class="name">長頸鹿-喬巴先生</h2>
+        </div>
+      <div>
+        <ul class="two">
+          <li><div class="glyphicon glyphicon-phone">phone</div></li>
+          <li><div class="glyphicon glyphicon-sunglasses">e-mail</div></li>
+          <li><div class="glyphicon glyphicon-ice-lolly">github</div></li>
+        </ul>
+      </div>
+    </div>
+
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-8">
+          <div>
+          <h2 class="glyphicon glyphicon-user">自我簡介</h2>
+          <p>長頸鹿是非洲特有的動物，與鹿和牛有親緣關係，但屬於不同的科，即長頸鹿科。長頸鹿科包括長頸鹿和霍加狓兩種動物。[2]
+  中國典籍關於長頸鹿的記載，最早出自晉代李石所著《續博物志》，記錄非洲索馬利亞沿岸撥拔力古國出產的異獸，身高一丈余頸長九尺。宋代趙汝適著《諸蕃志》中稱非洲長頸鹿為徂蠟：「狀如駝馳，而大如牛，色黃，前腳高五尺，後低三尺，頭高向上。」[3]明朝永樂十二年（1414），時值鄭和第四次出海，榜葛次國（今孟加拉）使臣將一隻長頸鹿進貢給明成祖，以「麒麟」為名，據說乃東非土語中的長頸鹿名稱giri之音譯[4][5]；在中國傳說中，麒麟為祥瑞之獸，明成祖便將其視為祥瑞之兆，命人撰文並繪圖記錄，以此標榜自己施政的偉大。存世的圖像記錄僅有傳沈度所繪的《麒麟圖》。[5]該典故流傳甚廣。長頸鹿在日語及韓語中的名稱皆源於麒麟（日語：キリン）[6]，在台語中也稱為「麒麟鹿」。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  <div id="album">
+    <div class="row">
+      <div class=" col-xs-6 col-sm-4 col-md-3">
+      <img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+    </div>
+    <div class=" col-xs-6 col-sm-4 col-md-3">
+    <img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+  </div>
+  <div class=" col-xs-6 col-sm-4 col-md-3">
+  <img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+</div>
+<div class=" col-xs-6 col-sm-4 col-md-3">
+<img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+</div>
+<div class=" col-xs-6 col-sm-4 col-md-3">
+<img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+</div>
+<div class=" col-xs-6 col-sm-4 col-md-3">
+<img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+</div>
+<div class=" col-xs-6 col-sm-4 col-md-3">
+<img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+</div>
+<div class=" col-xs-6 col-sm-4 col-md-3">
+<img class="img-thumbnail" src="http://image.digitalarchives.tw/ImageCache/00/5e/00/21.jpg"/>
+</div>
+
+
+  </div>
+
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="bookstrap/js/bootstrap.min.js"></script>
 </body>
+<script type="text/javascript">
+  $(function()){
+    $('body').scrollspy({target:'#navbar-example'})  };
+</script>
 </html>
